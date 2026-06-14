@@ -8,7 +8,7 @@ The package exposes:
   :class:`FusionNoise` tuning dataclass,
 - three baseline implementations (:class:`ImuDeadReckoning`,
   :class:`WheelDeadReckoning`, :class:`ComplementaryFusion`) in
-  :mod:`sensor_fusion.dummpy_fusion`,
+  :mod:`sensor_fusion.dummy_fusion`,
 - and a named "mode" selector :class:`FusionMode` + the
   :func:`make_fusion` factory that lets callers pick any of the above
   by name.
@@ -32,7 +32,7 @@ from __future__ import annotations
 from enum import Enum
 from typing import Callable
 
-from .dummpy_fusion import (
+from .dummy_fusion import (
     ComplementaryFusion,
     ComplementaryNoise,
     ImuDeadReckoning,

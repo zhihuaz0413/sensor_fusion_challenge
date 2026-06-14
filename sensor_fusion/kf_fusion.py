@@ -1,7 +1,7 @@
 """Fast 2D Kalman-filter sensor fusion.
 
 This module also defines the abstract :class:`SensorFusion` interface
-that the baselines in :mod:`sensor_fusion.dummpy_fusion` implement, so
+that the baselines in :mod:`sensor_fusion.dummy_fusion` implement, so
 any estimator in the package can be benchmarked against the same
 ground-truth + sensor harness with no code changes upstream.
 """

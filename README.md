@@ -106,7 +106,7 @@ sensor_fusion_challenge/
 ├── sensor_fusion/
 │   ├── __init__.py            # FusionMode and make_fusion(...)
 │   ├── kf_fusion.py           # KF and augmented KF implementations
-│   └── dummpy_fusion.py       # Baseline and complementary estimators
+│   └── dummy_fusion.py       # Baseline and complementary estimators
 └── tests/
     └── test_fusion.py
 ```
